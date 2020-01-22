@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
             var email = document.getElementById("email").value;
             var pwd = document.getElementById("micontrasenya").value;
             if (email=="x@gmail.com" && pwd=="patata"){
-                alert("PERFECTO");
+                window.location.href="cv.html";
             } else {
                 alert("IMPOSTOR");
             }
@@ -19,7 +19,7 @@
 </head>
 <body>
     <form action="" method="">
-        <input type="email" name="" id="email">
+        <input type="email" name="" id="email" placeholder="Correo electrónico">
         <input type="password" name="" id="micontrasenya">
         <input type="button" value="Validar" onclick="validar()">
     </form>
